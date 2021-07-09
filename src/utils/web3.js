@@ -26,6 +26,8 @@ const getUrlExplorer = async () => {
             break;
         case 4: return `${protocol}://rinkeby.${explorer}`
             break;
+        case 100:
+                return `${protocol}://blockscout.com/xdai/mainnet/`;
         default:
             return `${protocol}://${explorer}`;
     }
